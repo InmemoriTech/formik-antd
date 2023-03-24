@@ -38,7 +38,7 @@
     "storybook:noui": "bash ./tools/storybook_noui.sh",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "postinstall": "yarn build"
+    "postinstall": "npm run build"
   },
   "dependencies": {},
   "peerDependencies": {
